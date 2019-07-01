@@ -43,13 +43,26 @@ body{
 	justify-content: center;
 }
 .container__button .go, .back{
-	padding: .5em 5em .5em 5em;
+	padding: .5em 2em .5em 2em;
 	border: 0;
+	text-align: center;
 	border-radius: 5px;
 	margin: 0 .3em 0 .3em;
 	font-family: Arial;
-	font-size: 18px;
+	font-size: 25px;
 	font-weight: 800;
+	transform: scale(.8);
 	background-color: blue;
 	color: white;
+	transition: .5s
+}
+/*.container__button .go:hover, .back:hover{
+	opacity: .4;
+	transition: 2s;
+	transform: scale(.7);
+}*/
+.scale{
+	opacity: 0;
+	transition: 1s;
+	/*transform: scale(.4);*/
 }
