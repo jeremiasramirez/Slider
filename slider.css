@@ -63,6 +63,6 @@ body{
 }*/
 .scale{
 	opacity: 0;
-	transition: 1s;
+	transition: .5s;
 	/*transform: scale(.4);*/
 }
