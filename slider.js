@@ -1,5 +1,5 @@
-let colors = ["blue","red", "orangered", "magenta", "#333", "purple", 
-	  "green", "cyan"]
+let colors = ["blue", "darkred", "red", "orangered", "magenta", "#333", "purple", 
+	  "lightgreen"]
 // funcion de slider
 function goImage(goimg, backimg, listImgs, counter_, sizeListImgs, imgitem, routeimg, mainimg, counterimage){
 // go click
